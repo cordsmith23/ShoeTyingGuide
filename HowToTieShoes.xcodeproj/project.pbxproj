@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2BE68331E52668E00A7A83C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE68321E52668E00A7A83C /* AppDelegate.swift */; };
+		A2BE68351E52668E00A7A83C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE68341E52668E00A7A83C /* ViewController.swift */; };
+		A2BE68381E52668E00A7A83C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2BE68361E52668E00A7A83C /* Main.storyboard */; };
+		A2BE683A1E52668E00A7A83C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2BE68391E52668E00A7A83C /* Assets.xcassets */; };
+		A2BE683D1E52668E00A7A83C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2BE683B1E52668E00A7A83C /* LaunchScreen.storyboard */; };
+		A2BE68481E52668E00A7A83C /* HowToTieShoesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE68471E52668E00A7A83C /* HowToTieShoesTests.swift */; };
+		A2BE68531E52668E00A7A83C /* HowToTieShoesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE68521E52668E00A7A83C /* HowToTieShoesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2BE68441E52668E00A7A83C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2BE68271E52668D00A7A83C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2BE682E1E52668D00A7A83C;
+			remoteInfo = HowToTieShoes;
+		};
+		A2BE684F1E52668E00A7A83C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2BE68271E52668D00A7A83C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2BE682E1E52668D00A7A83C;
+			remoteInfo = HowToTieShoes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2BE682F1E52668E00A7A83C /* HowToTieShoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowToTieShoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2BE68321E52668E00A7A83C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2BE68341E52668E00A7A83C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2BE68371E52668E00A7A83C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2BE68391E52668E00A7A83C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2BE683C1E52668E00A7A83C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2BE683E1E52668E00A7A83C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2BE68431E52668E00A7A83C /* HowToTieShoesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowToTieShoesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2BE68471E52668E00A7A83C /* HowToTieShoesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToTieShoesTests.swift; sourceTree = "<group>"; };
+		A2BE68491E52668E00A7A83C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2BE684E1E52668E00A7A83C /* HowToTieShoesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowToTieShoesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2BE68521E52668E00A7A83C /* HowToTieShoesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToTieShoesUITests.swift; sourceTree = "<group>"; };
+		A2BE68541E52668E00A7A83C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2BE682C1E52668D00A7A83C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2BE68401E52668E00A7A83C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2BE684B1E52668E00A7A83C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2BE68261E52668D00A7A83C = {
+			isa = PBXGroup;
+			children = (
+				A2BE68311E52668E00A7A83C /* HowToTieShoes */,
+				A2BE68461E52668E00A7A83C /* HowToTieShoesTests */,
+				A2BE68511E52668E00A7A83C /* HowToTieShoesUITests */,
+				A2BE68301E52668E00A7A83C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2BE68301E52668E00A7A83C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2BE682F1E52668E00A7A83C /* HowToTieShoes.app */,
+				A2BE68431E52668E00A7A83C /* HowToTieShoesTests.xctest */,
+				A2BE684E1E52668E00A7A83C /* HowToTieShoesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2BE68311E52668E00A7A83C /* HowToTieShoes */ = {
+			isa = PBXGroup;
+			children = (
+				A2BE68321E52668E00A7A83C /* AppDelegate.swift */,
+				A2BE68341E52668E00A7A83C /* ViewController.swift */,
+				A2BE68361E52668E00A7A83C /* Main.storyboard */,
+				A2BE68391E52668E00A7A83C /* Assets.xcassets */,
+				A2BE683B1E52668E00A7A83C /* LaunchScreen.storyboard */,
+				A2BE683E1E52668E00A7A83C /* Info.plist */,
+			);
+			path = HowToTieShoes;
+			sourceTree = "<group>";
+		};
+		A2BE68461E52668E00A7A83C /* HowToTieShoesTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2BE68471E52668E00A7A83C /* HowToTieShoesTests.swift */,
+				A2BE68491E52668E00A7A83C /* Info.plist */,
+			);
+			path = HowToTieShoesTests;
+			sourceTree = "<group>";
+		};
+		A2BE68511E52668E00A7A83C /* HowToTieShoesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2BE68521E52668E00A7A83C /* HowToTieShoesUITests.swift */,
+				A2BE68541E52668E00A7A83C /* Info.plist */,
+			);
+			path = HowToTieShoesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2BE682E1E52668D00A7A83C /* HowToTieShoes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2BE68571E52668E00A7A83C /* Build configuration list for PBXNativeTarget "HowToTieShoes" */;
+			buildPhases = (
+				A2BE682B1E52668D00A7A83C /* Sources */,
+				A2BE682C1E52668D00A7A83C /* Frameworks */,
+				A2BE682D1E52668D00A7A83C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HowToTieShoes;
+			productName = HowToTieShoes;
+			productReference = A2BE682F1E52668E00A7A83C /* HowToTieShoes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2BE68421E52668E00A7A83C /* HowToTieShoesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2BE685A1E52668E00A7A83C /* Build configuration list for PBXNativeTarget "HowToTieShoesTests" */;
+			buildPhases = (
+				A2BE683F1E52668E00A7A83C /* Sources */,
+				A2BE68401E52668E00A7A83C /* Frameworks */,
+				A2BE68411E52668E00A7A83C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2BE68451E52668E00A7A83C /* PBXTargetDependency */,
+			);
+			name = HowToTieShoesTests;
+			productName = HowToTieShoesTests;
+			productReference = A2BE68431E52668E00A7A83C /* HowToTieShoesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2BE684D1E52668E00A7A83C /* HowToTieShoesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2BE685D1E52668E00A7A83C /* Build configuration list for PBXNativeTarget "HowToTieShoesUITests" */;
+			buildPhases = (
+				A2BE684A1E52668E00A7A83C /* Sources */,
+				A2BE684B1E52668E00A7A83C /* Frameworks */,
+				A2BE684C1E52668E00A7A83C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2BE68501E52668E00A7A83C /* PBXTargetDependency */,
+			);
+			name = HowToTieShoesUITests;
+			productName = HowToTieShoesUITests;
+			productReference = A2BE684E1E52668E00A7A83C /* HowToTieShoesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2BE68271E52668D00A7A83C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Cord Smith";
+				TargetAttributes = {
+					A2BE682E1E52668D00A7A83C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A2BE68421E52668E00A7A83C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A2BE682E1E52668D00A7A83C;
+					};
+					A2BE684D1E52668E00A7A83C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A2BE682E1E52668D00A7A83C;
+					};
+				};
+			};
+			buildConfigurationList = A2BE682A1E52668D00A7A83C /* Build configuration list for PBXProject "HowToTieShoes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2BE68261E52668D00A7A83C;
+			productRefGroup = A2BE68301E52668E00A7A83C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2BE682E1E52668D00A7A83C /* HowToTieShoes */,
+				A2BE68421E52668E00A7A83C /* HowToTieShoesTests */,
+				A2BE684D1E52668E00A7A83C /* HowToTieShoesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2BE682D1E52668D00A7A83C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2BE683D1E52668E00A7A83C /* LaunchScreen.storyboard in Resources */,
+				A2BE683A1E52668E00A7A83C /* Assets.xcassets in Resources */,
+				A2BE68381E52668E00A7A83C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2BE68411E52668E00A7A83C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2BE684C1E52668E00A7A83C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2BE682B1E52668D00A7A83C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2BE68351E52668E00A7A83C /* ViewController.swift in Sources */,
+				A2BE68331E52668E00A7A83C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2BE683F1E52668E00A7A83C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2BE68481E52668E00A7A83C /* HowToTieShoesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2BE684A1E52668E00A7A83C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2BE68531E52668E00A7A83C /* HowToTieShoesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2BE68451E52668E00A7A83C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2BE682E1E52668D00A7A83C /* HowToTieShoes */;
+			targetProxy = A2BE68441E52668E00A7A83C /* PBXContainerItemProxy */;
+		};
+		A2BE68501E52668E00A7A83C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2BE682E1E52668D00A7A83C /* HowToTieShoes */;
+			targetProxy = A2BE684F1E52668E00A7A83C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2BE68361E52668E00A7A83C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2BE68371E52668E00A7A83C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2BE683B1E52668E00A7A83C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2BE683C1E52668E00A7A83C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2BE68551E52668E00A7A83C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2BE68561E52668E00A7A83C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2BE68581E52668E00A7A83C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HowToTieShoes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cordsmith.HowToTieShoes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A2BE68591E52668E00A7A83C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HowToTieShoes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cordsmith.HowToTieShoes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A2BE685B1E52668E00A7A83C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HowToTieShoesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cordsmith.HowToTieShoesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowToTieShoes.app/HowToTieShoes";
+			};
+			name = Debug;
+		};
+		A2BE685C1E52668E00A7A83C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HowToTieShoesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cordsmith.HowToTieShoesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowToTieShoes.app/HowToTieShoes";
+			};
+			name = Release;
+		};
+		A2BE685E1E52668E00A7A83C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HowToTieShoesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cordsmith.HowToTieShoesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HowToTieShoes;
+			};
+			name = Debug;
+		};
+		A2BE685F1E52668E00A7A83C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HowToTieShoesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cordsmith.HowToTieShoesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HowToTieShoes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2BE682A1E52668D00A7A83C /* Build configuration list for PBXProject "HowToTieShoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2BE68551E52668E00A7A83C /* Debug */,
+				A2BE68561E52668E00A7A83C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2BE68571E52668E00A7A83C /* Build configuration list for PBXNativeTarget "HowToTieShoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2BE68581E52668E00A7A83C /* Debug */,
+				A2BE68591E52668E00A7A83C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2BE685A1E52668E00A7A83C /* Build configuration list for PBXNativeTarget "HowToTieShoesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2BE685B1E52668E00A7A83C /* Debug */,
+				A2BE685C1E52668E00A7A83C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2BE685D1E52668E00A7A83C /* Build configuration list for PBXNativeTarget "HowToTieShoesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2BE685E1E52668E00A7A83C /* Debug */,
+				A2BE685F1E52668E00A7A83C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2BE68271E52668D00A7A83C /* Project object */;
+}
